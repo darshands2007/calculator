@@ -27,3 +27,4 @@ A simple and stylish calculator built with HTML, CSS, and JavaScript. This web-b
 - Add more advanced mathematical functions.
 - Improving the Animations.
 - Fixing all bugs.
+- Adding Night Mode.
