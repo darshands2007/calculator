@@ -2,6 +2,9 @@
 
 A simple and stylish calculator built with HTML, CSS, and JavaScript. This web-based calculator allows users to perform basic arithmetic operations, including addition, subtraction, multiplication, and division. It also features a clean and responsive design.
 
+## Demo
+The demo of the website can be seen in [Demo Calculator](https://calculatorbydarshan.tiiny.site/)
+
 ## Features
 
 - **Clear display**: Shows the input and result clearly on the screen.
