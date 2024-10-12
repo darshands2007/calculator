@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Outfit:wght@100..900&family=Protest+Strike&family=Train+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <div class="calc">
+            <div class="output">
+                <h1>Darshan's Calculator</h1>
+                <input type="text" id="screen">
+            </div>
+            <div class="buttons">
+                <button onClick="clr()" class="butt">CE</button>
+                <button onClick="remove()" class="butt">DEL</button>
+                <div class="row">
+                    <button onClick="buttonclick(7)" class="butt">7</button>
+                    <button onClick="buttonclick(8)" class="butt">8</button>
+                    <button onClick="buttonclick(9)" class="butt">9</button>
+                    <button onClick="buttonclick('/')" class="butt">/</button>
+                    
+                </div>
+                <div class="row">
+                    <button onClick="buttonclick(4)" class="butt">4</button>
+                    <button onClick="buttonclick(5)" class="butt">5</button>
+                    <button onClick="buttonclick(6)" class="butt">6</button>
+                    <button onClick="buttonclick('*')" class="butt">x</button>
+                </div>
+                <div class="row">
+                    <button onClick="buttonclick(1)" class="butt">1</button>
+                    <button onClick="buttonclick(2)" class="butt">2</button>
+                    <button onClick="buttonclick(3)" class="butt">3</button>
+                    <button onClick="buttonclick('+')" class="butt">+</button>
+                </div>
+                <div class="row">
+
+                </div><button onClick="buttonclick('.')" class="butt">.</button>
+                    <button onClick="buttonclick(0)" class="butt">0</button>
+                    <button onClick="buttonclick('-')" class="butt">-</button>
+                    <button onClick="equalClick()" class="butt">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
